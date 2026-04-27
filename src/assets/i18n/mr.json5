@@ -1,4 +1,4 @@
-{
+﻿{
   "401.help": "आपल्याला या पृष्ठावर प्रवेश करण्याची परवानगी नाही. आपण खालील बटण वापरून मुख्य पृष्ठावर परत जाऊ शकता.",
 
   "401.link.home-page": "मला मुख्य पृष्ठावर घेऊन चला",
@@ -4989,7 +4989,7 @@
 
   "submission.import-external.title.JournalVolume": "बाह्य स्रोतातून जर्नल खंड आयात करा",
 
-  "submission.import-external.title.OrgUnit": "बाह्य स्रोतातून प्रकाशक आयात करा",
+  "submission.import-external.title.OrgUnit": "बाह्य स्रोतातून संघटनात्मक एकक आयात करा",
 
   "submission.import-external.title.Person": "बाह्य स्रोतातून व्यक्ती आयात करा",
 

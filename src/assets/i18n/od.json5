@@ -1,4 +1,4 @@
-{
+﻿{
   "401.help": "ଆପଣ ଏହି ପୃଷ୍ଠାକୁ ପ୍ରବେଶ କରିବାର ଅନୁମତି ନାହିଁ। ଆପଣ ନିମ୍ନସ୍ଥ ବଟନ୍ ବ୍ୟବହାର କରି ମୂଳ ପୃଷ୍ଠାକୁ ଫେରିପାରିବେ।",
   "401.link.home-page": "ମୋତେ ମୂଳ ପୃଷ୍ଠାକୁ ନେଇଯାଅ",
   "401.unauthorized": "ଅନୁମତିପ୍ରାପ୍ତ ନୁହେଁ",
@@ -3473,7 +3473,7 @@
 
   "submission.import-external.title.JournalVolume": "ଏକ ବାହ୍ୟ ସ୍ରୋତରୁ ଏକ ଜର୍ଣ୍ଣାଲ ଭଲ୍ୟୁମ୍ ଆମଦାନୀ କରନ୍ତୁ",
 
-  "submission.import-external.title.OrgUnit": "ଏକ ବାହ୍ୟ ସ୍ରୋତରୁ ଏକ ପ୍ରକାଶକ ଆମଦାନୀ କରନ୍ତୁ",
+  "submission.import-external.title.OrgUnit": "ଏକ ବାହ୍ୟ ସ୍ରୋତରୁ ଏକ ସାଂଗଠନିକ ଏକକ ଆମଦାନୀ କରନ୍ତୁ",
 
   "submission.import-external.title.Person": "ଏକ ବାହ୍ୟ ସ୍ରୋତରୁ ଏକ ବ୍ୟକ୍ତି ଆମଦାନୀ କରନ୍ତୁ",
 

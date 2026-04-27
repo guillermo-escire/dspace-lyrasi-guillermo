@@ -1,4 +1,4 @@
-{
+﻿{
   "401.help": "మీరు ఈ పేజీని యాక్సెస్ చేయడానికి అధికారం లేదు. మీరు దిగువ బటన్ ఉపయోగించి హోమ్ పేజీకి తిరిగి వెళ్లవచ్చు.",
   "401.link.home-page": "నన్ను హోమ్ పేజీకి తీసుకెళ్లండి",
   "401.unauthorized": "అనధికారం",
@@ -3781,7 +3781,7 @@
   "submission.import-external.title.Journal": "బాహ్య మూలం నుండి జర్నల్‌ను దిగుమతి చేయండి",
   "submission.import-external.title.JournalIssue": "బాహ్య మూలం నుండి జర్నల్ ఇష్యూను దిగుమతి చేయండి",
   "submission.import-external.title.JournalVolume": "బాహ్య మూలం నుండి జర్నల్ వాల్యూమ్‌ను దిగుమతి చేయండి",
-  "submission.import-external.title.OrgUnit": "బాహ్య మూలం నుండి ప్రచురణకర్తను దిగుమతి చేయండి",
+  "submission.import-external.title.OrgUnit": "బాహ్య మూలం నుండి సంస్థాగత యూనిట్‌ను దిగుమతి చేయండి",
   "submission.import-external.title.Person": "బాహ్య మూలం నుండి వ్యక్తిని దిగుమతి చేయండి",
   "submission.import-external.title.Project": "బాహ్య మూలం నుండి ప్రాజెక్ట్‌ను దిగుమతి చేయండి",
   "submission.import-external.title.Publication": "బాహ్య మూలం నుండి ప్రచురణను దిగుమతి చేయండి",

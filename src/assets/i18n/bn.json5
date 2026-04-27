@@ -1,4 +1,4 @@
-{
+﻿{
   "401.help": "আপনি এই পৃষ্ঠাটি অ্যাক্সেস করার জন্য অনুমোদিত নন। আপনি হোম পেজে ফিরে যেতে নীচের বোতামটি ব্যবহার করতে পারেন।",
 
   "401.link.home-page": "আমাকে হোম পেজে নিয়ে যাও",
@@ -5028,7 +5028,7 @@
 
   "submission.import-external.title.JournalVolume": "একটি বহিরাগত উৎস থেকে একটি জার্নাল ভলিউম আমদানি করুন",
 
-  "submission.import-external.title.OrgUnit": "একটি বহিরাগত উৎস থেকে একটি প্রকাশক আমদানি করুন",
+  "submission.import-external.title.OrgUnit": "একটি বহিরাগত উৎস থেকে একটি সাংগঠনিক ইউনিট আমদানি করুন",
 
   "submission.import-external.title.Person": "একটি বহিরাগত উৎস থেকে একটি ব্যক্তি আমদানি করুন",
 

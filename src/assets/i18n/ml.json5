@@ -1,4 +1,4 @@
-{
+﻿{
   "401.help": "ഈ പേജ് ആക്‌സസ് ചെയ്യാൻ നിങ്ങൾക്ക് അധികാരം നൽകിയിട്ടില്ല. താഴെയുള്ള ബട്ടൺ ഉപയോഗിച്ച് നിങ്ങൾക്ക് ഹോം പേജിലേക്ക് തിരികെ പോകാം.",
   "401.link.home-page": "എന്നെ ഹോം പേജിലേക്ക് കൊണ്ടുപോകുക",
   "401.unauthorized": "അനധികൃതം",
@@ -3888,7 +3888,7 @@
   "submission.import-external.title.Journal": "ബാഹ്യ സ്രോതസ്സിൽ നിന്ന് ഒരു ജേണൽ ഇറക്കുമതി ചെയ്യുക",
   "submission.import-external.title.JournalIssue": "ബാഹ്യ സ്രോതസ്സിൽ നിന്ന് ഒരു ജേണൽ ഇഷ്യൂ ഇറക്കുമതി ചെയ്യുക",
   "submission.import-external.title.JournalVolume": "ബാഹ്യ സ്രോതസ്സിൽ നിന്ന് ഒരു ജേണൽ വാല്യം ഇറക്കുമതി ചെയ്യുക",
-  "submission.import-external.title.OrgUnit": "ബാഹ്യ സ്രോതസ്സിൽ നിന്ന് ഒരു പ്രസാധകൻ ഇറക്കുമതി ചെയ്യുക",
+  "submission.import-external.title.OrgUnit": "ബാഹ്യ സ്രോതസ്സിൽ നിന്ന് ഒരു സംഘടനാ യൂണിറ്റ് ഇറക്കുമതി ചെയ്യുക",
   "submission.import-external.title.Person": "ബാഹ്യ സ്രോതസ്സിൽ നിന്ന് ഒരു വ്യക്തി ഇറക്കുമതി ചെയ്യുക",
   "submission.import-external.title.Project": "ബാഹ്യ സ്രോതസ്സിൽ നിന്ന് ഒരു പ്രോജക്റ്റ് ഇറക്കുമതി ചെയ്യുക",
   "submission.import-external.title.Publication": "ബാഹ്യ സ്രോതസ്സിൽ നിന്ന് ഒരു പ്രസിദ്ധീകരണം ഇറക്കുമതി ചെയ്യുക",
