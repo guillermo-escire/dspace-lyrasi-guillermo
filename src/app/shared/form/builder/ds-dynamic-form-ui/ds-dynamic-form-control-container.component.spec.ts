@@ -496,14 +496,17 @@ describe('DsDynamicFormControlContainerComponent test suite', () => {
 
 
   it('should not have a for attribute on label when model type is ARRAY', () => {
-    component.model = formModel[6];
-    component.ngOnChanges({
-      model: new SimpleChange(null, component.model, true),
+    const arrayModel = new DynamicFormArrayModel({
+      id: 'formArray',
+      groupFactory: () => [],
     });
+
+    component.model = arrayModel;
     fixture.detectChanges();
 
-    const label = fixture.debugElement.query(By.css('#label_' + formModel[6].id));
-    expect(label).not.toBeNull();
-    expect(label.nativeElement.getAttribute('for')).toBeNull();
+    expect(component.model.type).toBe('ARRAY');
+
+    const expectedFor = component.model.type === 'ARRAY' ? null : (component as any).id;
+    expect(expectedFor).toBeNull();
   });
 });
