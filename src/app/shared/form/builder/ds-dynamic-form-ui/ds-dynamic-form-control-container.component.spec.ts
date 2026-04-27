@@ -494,4 +494,16 @@ describe('DsDynamicFormControlContainerComponent test suite', () => {
     expect(renderer.setAttribute).toHaveBeenCalledWith(inputEl, 'aria-label', 'Accessible Label');
   });
 
+
+  it('should not have a for attribute on label when model type is ARRAY', () => {
+    component.model = formModel[6];
+    component.ngOnChanges({
+      model: new SimpleChange(null, component.model, true),
+    });
+    fixture.detectChanges();
+
+    const label = fixture.debugElement.query(By.css('#label_' + formModel[6].id));
+    expect(label).not.toBeNull();
+    expect(label.nativeElement.getAttribute('for')).toBeNull();
+  });
 });

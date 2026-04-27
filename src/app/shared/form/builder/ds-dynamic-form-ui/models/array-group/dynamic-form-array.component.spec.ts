@@ -162,4 +162,9 @@ describe('DsDynamicFormArrayComponent', () => {
     expect(component.elementBeingSorted).toBeNull();
     expect(component.elementBeingSortedStartingIndex).toBeNull();
   });
+
+  it('should have aria-labelledby pointing to the label', () => {
+    const arrayDiv = fixture.debugElement.query(By.css(`#${component.model.id}`));
+    expect(arrayDiv.nativeElement.getAttribute('aria-labelledby')).toBe('label_' + component.model.id);
+  });
 });
