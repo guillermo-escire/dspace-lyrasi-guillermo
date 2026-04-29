@@ -268,9 +268,8 @@ describe('itemPageResolver', () => {
 
       spyOn(router, 'navigateByUrl').and.callThrough();
 
-      const encodedInvalidUrl = encodeURIComponent(invalidCustomUrl);
-      const route = { params: { id: invalidCustomUrl } } as any;
-      const state = { url: `/entities/person/${encodedInvalidUrl}` } as any;
+      const route = { params: { id: uuid } } as any;
+      const state = { url: `/items/${uuid}` } as any;
 
       resolver(route, state, router, invalidItemService, store, authService, platformId, hardRedirectService, notificationsService, translateService)
         .pipe(first())
