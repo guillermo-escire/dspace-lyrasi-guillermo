@@ -272,6 +272,17 @@ describe('SubmissionSectionUploadFileComponent', () => {
       expect(compAsAny.editBitstreamData).toHaveBeenCalled();
     });
 
+    it('should return a Bitstream with correct uuid and _links from fileData', () => {
+      comp.fileData = fileData;
+
+      const bitstream = comp.getBitstream();
+
+      expect(bitstream.uuid).toBe(fileData.uuid);
+      expect(bitstream._links.self.href).toBe(fileData.url);
+      expect(bitstream._links.content.href).toBe(fileData.url);
+      expect(bitstream._links.thumbnail.href).toBe('');
+    });
+
   });
 });
 

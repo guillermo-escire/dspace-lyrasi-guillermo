@@ -257,6 +257,14 @@ export class SubmissionSectionUploadFileComponent implements OnChanges, OnInit, 
   public getBitstream(): Bitstream {
     return Object.assign(new Bitstream(), {
       uuid: this.fileData.uuid,
+      _links: {
+        self: { href: this.fileData.url },
+        content: { href: this.fileData.url },
+        bundle: { href: '' },
+        format: { href: '' },
+        thumbnail: { href: this.fileData.thumbnail || '' },
+        accessStatus: { href: '' },
+      },
     });
   }
 
