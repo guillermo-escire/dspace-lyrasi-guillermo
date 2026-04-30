@@ -1,6 +1,13 @@
 @import '../../../../styles/variables';
 @import '../../../../styles/mixins';
 
+:host {
+  display: block;
+  max-height: 80vh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
 :host ::ng-deep {
   ngx-skeleton-loader .skeleton-loader {
     height: var(--ds-filters-skeleton-height);
